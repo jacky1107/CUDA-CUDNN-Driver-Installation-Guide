@@ -30,6 +30,8 @@ https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 
 # Install Cmake
 
+https://askubuntu.com/questions/829310/how-to-upgrade-cmake-in-ubuntu
+
 Go to: https://cmake.org/download/ (If want to choose previous version, then go to: "https://cmake.org/files/")
 And find v3.15 or above version.
 
@@ -37,3 +39,13 @@ And find v3.15 or above version.
 `sudo cp -r ${CMAKE_PATH}/cmake-<version>.sh /opt`
 `sudo bash /opt/${CMAKE_PATH}/cmake-<version>.sh`
 `sudo ln -s /opt/${CMAKE_PATH}/cmake-<version>/bin* /usr/local/bin`
+
+# Install Dependancy
+
+sudo apt-get install protobuf-compiler libprotobuf-dev
+sudo apt-get install libgoogle-glog-dev
+sudo apt-get install libopencv-dev
+sudo apt-get install libboost-all-dev
+sudo apt-get install libhdf5-dev
+sudo apt-get install libatlas-base-dev
+sudo apt install libzbar0
