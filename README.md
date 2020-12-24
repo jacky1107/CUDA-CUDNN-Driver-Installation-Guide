@@ -42,10 +42,10 @@ And find v3.15 or above version.
 
 # Install Dependancy
 
-sudo apt-get install protobuf-compiler libprotobuf-dev
-sudo apt-get install libgoogle-glog-dev
-sudo apt-get install libopencv-dev
-sudo apt-get install libboost-all-dev
-sudo apt-get install libhdf5-dev
-sudo apt-get install libatlas-base-dev
-sudo apt install libzbar0
+`sudo apt-get install protobuf-compiler libprotobuf-dev`
+`sudo apt-get install libgoogle-glog-dev`
+`sudo apt-get install libopencv-dev`
+`sudo apt-get install libboost-all-dev`
+`sudo apt-get install libhdf5-dev`
+`sudo apt-get install libatlas-base-dev`
+`sudo apt install libzbar0`
