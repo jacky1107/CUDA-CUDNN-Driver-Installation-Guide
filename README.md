@@ -1,4 +1,9 @@
-# CUDA_Installation
+# CUDA_CUDNN_DRIVER_Installation
+
+In order to install cuda/cudnn/nvidia-driver on ubuntu 18.04/20.4, you can follow these steps below.
+
+-   If your graphics card is from NVIDIA and it is listed in https://developer.nvidia.com/cuda-gpus, your GPU is CUDA-capable.
+-   Verify you have a supported version of linux `uname -m && cat /etc/*release`
 
 https://developer.nvidia.com/cuda-toolkit-archive
 
