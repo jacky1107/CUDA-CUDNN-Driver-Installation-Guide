@@ -144,14 +144,14 @@ sudo apt install gcc
 
       1. 請先確認openpose的路徑以及所要編譯的環境路徑有沒有錯，如下圖:
          (openpose路徑會根據不同環境有所改變)
-         ![image](1.png)
+         ![image](compilation/1.png)
       2. 點選`Configure`，確認使用`Unix Makefiles`以及`Use Default native compilers`並點選`Finish`，如下圖:
-         ![image](2.png)
+         ![image](compilation/2.png)
       3. 完成後，你會看到`Configuring done`
          **請記得勾選`BUILD_PYTHON`**，如下圖:
-         ![image](3.png)
+         ![image](compilation/3.png)
       4. 再點選一次`Configure`，接著點選`Generate`，完成後你將會看到`Generating done`，如下圖:
-         ![image](4.png)
+         ![image](compilation/4.png)
 
       5. Compilation
          請按順序執行，並確認現在路徑在openpose底下的build
